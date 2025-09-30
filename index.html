@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài Thi Thử IOE Lớp 4 (ĐỀ SỐ 01) </title>
+    <title>Bài Thi Thử IOE Lớp 4 (ĐỀ SỐ 01 - Mới)</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -198,16 +199,16 @@
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/Thi_cac_cap/2020-2021/Lop4/Captruong/anh/D2_10.jpg',
                 imagePrompt: 'A simple, cartoon-style drawing of a rabbit (bunny).',
                 options: [
-                    { text: 'A. A rabbit', isCorrect: true },
+                    { text: 'A. A rabbit', isCorrect: false },
                     { text: 'B. A lion', isCorrect: false },
                     { text: 'C. A chicken', isCorrect: false },
-                    { text: 'D. A guinea pig', isCorrect: false }
+                    { text: 'D. A guinea pig', isCorrect: true }
                 ],
-                correctAnswer: 'A. A rabbit',
-                correctAnswer_vi: 'Một con thỏ',
-                hint_vi: 'Tên con vật có đôi tai dài.',
-                rationale_vi: 'Hình ảnh mô tả một con thỏ (rabbit).',
-                rationale_en: 'The image depicts a rabbit.',
+                correctAnswer: 'D. A guinea pig',
+                correctAnswer_vi: 'Một con chuột lang, chuột bạch',
+                hint_vi: 'Tên con vật như chuột.',
+                rationale_vi: 'Hình ảnh mô tả một chuột.',
+                rationale_en: 'The image depicts a guinea pig.',
             },
             {
                 type: 'multimedia',
@@ -217,15 +218,15 @@
                 audioContent: 'There are three books on the table.',
                 options: [
                     { text: 'A. There are three books under the table.', isCorrect: false },
-                    { text: 'B. There are three boats on the table.', isCorrect: false },
-                    { text: 'C. There are three books on the table.', isCorrect: true },
+                    { text: 'B. There are three boats on the table.', isCorrect: true },
+                    { text: 'C. There are three books on the table.', isCorrect: false },
                     { text: 'D. There are three boxes on the table.', isCorrect: false }
                 ],
-                correctAnswer: 'C. There are three books on the table.',
-                correctAnswer_vi: 'Có ba quyển sách trên bàn.',
+                correctAnswer: 'B. There are three boats on the table.',
+                correctAnswer_vi: 'Có ba chiếc thuyền trên bàn.Nghe kì quá ha',
                 hint_vi: 'Chú ý nghe số lượng (three), danh từ (books) và giới từ (on/under).',
-                rationale_vi: 'Nội dung nghe được là "There are three books on the table".',
-                rationale_en: 'The audio content is "There are three books on the table".',
+                rationale_vi: 'Nội dung nghe được là "There are three boats on the table".',
+                rationale_en: 'The audio content is "There are three boats on the table".',
             },
             {
                 type: 'mc',
@@ -273,22 +274,22 @@
                 rationale_en: 'The answer refers to one singular activity, so the singular noun "hobby" is correct.',
             },
             {
-                type: 'mc',
-                question: '37. They are having ____ . (Nghe và chọn bữa ăn/thời gian nghỉ)',
+                type: 'multimedia',
+                question: '37. They are having ____ .',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/ImageExam/2013/11/21/635206416493045877_Audio.mp3',
                 audioContent: 'They are having a break.',
                 options: [
-                    { text: 'A. breakfast', isCorrect: false },
-                    { text: 'B. break', isCorrect: true },
+                    { text: 'A. breakfast', isCorrect: true },
+                    { text: 'B. break', isCorrect: false },
                     { text: 'C. broke', isCorrect: false },
                     { text: 'D. bread', isCorrect: false }
                 ],
-                correctAnswer: 'B. break',
-                correctAnswer_vi: 'giờ giải lao',
-                hint_vi: 'Chú ý phát âm giữa các lựa chọn. Cụm từ "have a break".',
-                rationale_vi: 'Nội dung nghe được là "They are having a break" (Họ đang nghỉ giải lao).',
-                rationale_en: 'The audio content is "They are having a break".',
+                correctAnswer: 'A. breakfast',
+                correctAnswer_vi: 'bữa sáng',
+                hint_vi: 'Chú ý phát âm giữa các lựa chọn. Cụm từ "have breakfast".',
+                rationale_vi: 'Nội dung nghe được là "They are having breakfast" (Họ đang ăn sáng).',
+                rationale_en: 'The audio content is "They are having breakfast".',
             },
             {
                 type: 'mc',
@@ -382,7 +383,7 @@
             },
             {
                 type: 'mc',
-                question: '58. W____ did you meet? - Some famous musicians.',
+                question: '58. ____ did you meet? - Some famous musicians.',
                 options: [
                     { text: 'A. Who', isCorrect: true },
                     { text: 'B. What', isCorrect: false },
@@ -536,7 +537,6 @@
                 rationale_vi: 'Nội dung nghe được: "Do you want some grapes?". "Grape" (nho) là danh từ đếm được, dùng số nhiều sau "some".',
                 rationale_en: 'The audio says "Do you want some grapes?". "Grapes" must be plural after "some".',
             },
-
             // CÂU HỎI ĐIỀN TỪ (FILL-IN-THE-BLANK)
             {
                 type: 'fill-in-the-blank',
@@ -567,7 +567,7 @@
             },
             {
                 type: 'fill-in-the-blank',
-                question: '12. ICE-CRE____M',
+                question: '12. ICE-CR____M',
                 correctAnswer: 'EA',
                 correctAnswer_vi: 'EA (để hoàn thành "ICE-CREAM" - kem)',
                 hint_vi: 'Tên món tráng miệng lạnh. (2 ký tự)',
@@ -611,8 +611,8 @@
                 rationale_en: 'The verb is "play", conjugated as "plays" for the third-person singular subject.',
             },
             {
-                type: 'fill-in-the-blank',
-                question: '27. Jolly’s got blue ____s.',
+                type: 'multimedia',
+                question: '27. Jolly’s got blue____s.',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/Thi_cac_cap/2020-2021/Lop4/Captruong/nghe/d1_13.mp3',
                 audioContent: 'Jolly\'s got blue eyes.',
@@ -642,7 +642,7 @@
             },
             {
                 type: 'fill-in-the-blank',
-                question: '38. C____ here, please.',
+                question: '38. C____e here, please.',
                 correctAnswer: 'om',
                 correctAnswer_vi: 'om (để hoàn thành "Come" - đến)',
                 hint_vi: 'Động từ chỉ hành động "đi đến đây". (2 ký tự)',
@@ -679,8 +679,8 @@
             {
                 type: 'fill-in-the-blank',
                 question: '49. Brian is getting dr____ in his room.',
-                correctAnswer: 'esse',
-                correctAnswer_vi: 'esse (để hoàn thành "dressed" - mặc quần áo)',
+                correctAnswer: 'essed',
+                correctAnswer_vi: 'essed (để hoàn thành "dressed" - mặc quần áo)',
                 hint_vi: 'Cụm từ "get dressed" (mặc quần áo). (4 ký tự)',
                 rationale_vi: 'Cụm từ cố định là "getting dressed" (đang mặc quần áo).',
                 rationale_en: 'The fixed phrase is "getting dressed".',
@@ -815,7 +815,7 @@
                 rationale_en: 'The preposition "in" is used for location inside a place.',
             },
             {
-                type: 'fill-in-the-blank',
+                type: 'multimedia',
                 question: '79. She tells her friend to come to her house at 7 o’clock on ____ .',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/ImageExam/2016/12/1/636161992745323604_Audio.mp3',
@@ -855,7 +855,7 @@
             },
             {
                 type: 'multimedia',
-                question: '89. Oh, no! I don’t have any potato c____ ps.',
+                question: '89. Oh, no! I don’t have any potato c____ps.',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/Thi%20Th%E1%BB%AD/Thi_trai_nghiem_2021/Lop4/Nghe/E4_1.mp3',
                 audioContent: 'Oh, no! I don’t have any potato chips.',
@@ -903,7 +903,7 @@
             },
             {
                 type: 'multimedia',
-                question: '96. I ____ MUSIC.',
+                question: '96. I____ MUSIC.',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/Thi_cac_cap/2020-2021/Lop4/Captruong/nghe/D3_8.mp3',
                 audioContent: 'I LIKE MUSIC.',
@@ -1108,7 +1108,7 @@
             {
                 type: 'rearrange',
                 question: '87. Sắp xếp các từ/cụm từ sau thành câu đúng:',
-                words: ['is', 'in Hanoi.', '“Lang Bác”'],
+                words: ['is', 'in Hanoi.', '“Lăng Bác”'],
                 correctAnswer: '“Lang Bác” is in Hanoi.',
                 correctAnswer_vi: '“Lăng Bác” nằm ở Hà Nội.',
                 hint_vi: 'Chủ ngữ là "Lăng Bác". Cấu trúc chỉ vị trí: S + to be + in + Place.',
@@ -2025,3 +2025,4 @@
     </script>
 </body>
 </html>
+```
